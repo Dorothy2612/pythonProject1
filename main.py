@@ -14,3 +14,13 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#Asks the user for their name, and prints the name to the screen
+name = input("what is your name?  ")
+#print the user name
+#Asks the user for a number, then multiply that number by itself, and print the results to the screen
+number = float(input("Tell me a number: "))
+answer = (number * number)
+print("The answer is: ", answer)
+#Asks the user for any word, counts how many letters are in that word, and prints the result to the screen
+word = input("Tell me a word: ")
+print(len(word))
